@@ -1,0 +1,21 @@
+#wrapper_included			{ font-family: Verdana, Arial, Helvetica, sans-serif; padding: 0px; margin: 0px; text-align: left; line-height: 1.6em;}
+#wrapper_included a 			{ font-weight: normal; }
+#wrapper_included a:link 		{ color: #FFFFFF; }
+#wrapper_included a:visited 		{ color: #FFFFFF; }
+#wrapper_included a:active 		{ color: #006600; }
+
+
+.top_headline			{ background-color: #4E5D15; font-size: 10pt; font-weight: bold; padding-left: 10px; color: white; } 
+.top_headline .active,
+.top_headline a			{ font-weight: normal; }
+
+#weekdaySelect			{ z-index: 0; margin-top: 5px; margin-bottom: 15px; padding: 5px 5px 5px 5px; height: 50px; border: 1px dashed #669900; }
+#weekdaySelect .dropdown{  }
+#weekdaySelect a		{ font-size: 10pt; text-decoration: none; background-color: #669900; border: 1px solid #4E5D15; margin-right: 3px; padding: 0px 3px; }
+#weekdaySelect span		{ font-size: 10pt; }
+#weekdaySelect .active	{ font-size: 10pt; text-decoration: none; background-color: #99CC33; border: 1px solid #4E5D15; margin-right: 3px; padding: 0px 3px; }
+#weekdaySelect #bauernListe { margin-top: 7px; margin-bottom: 2px; }
+#weekdaySelectReset		{ clear: both; }
+
+
+/** #4E5D15; #669900; #99CC33;  **/

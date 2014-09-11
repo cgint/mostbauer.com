@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+#pageSurrounding {width: 700px}
+
+div#map 									{width: 490px; height: 300px; border: 1px solid #669900;}
+div#actionBox 						{width: 200px; height: 300px; border: 1px solid #669900; float: right; overflow: auto;}
+div#actionBoxWorking			{font-size: 10px; padding-left: 20px; display: none; background-image: url("http://mostbauer.com/dynamic_import/images/mbgm_ajax-loader.gif"); background-position: left; background-repeat: no-repeat;}
+div#actionBox ul				 	{list-style: none; padding: 0px; margin: 0px;}
+div#actionBox li.region 	{width: 160px; height:  15px; cursor: default; display: none; font-size: 10px; color: gray;}
+div#actionBox li.action 	{width: 160px; height:  18px; line-height: 7px; cursor: pointer; display: none; font-size: 10px; padding-left: 20px; background-image: url("http://mostbauer.com/dynamic_import/images/mbgm_ico_open.gif"); background-repeat: no-repeat; background-position: left top; }
+div#actionBox li.active 	{color:blue;}
+div#actionBox li span.famName 	{font-size: 8px; height: 10px;}
+
+div#bauerDetailSurround		{width: 700px;}
+div#bauerDetail						{width: 700px; display: none; margin-top: 4px;}
+
+div.bauerhtmlinfo 										{width:300px; max-height: 100px; overflow: auto;}
+div.bauerhtmlinfo span.bauerheadline 	{font-size: 12px; font-weight: bold;}
+div.bauerhtmlinfo span.notopennote 		{font-size: 10px; font-style: italic; color: gray;}
+div.bauerhtmlinfo span.bauerinfo	 		{font-size: 10px;}
+div.bauerhtmlinfo a								 		{font-size: 10px;}
